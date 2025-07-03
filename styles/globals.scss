@@ -1,0 +1,36 @@
+// Variables
+$font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+$bg-color: #fff;
+$text-color: #111;
+
+// Global styles
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  background: $bg-color;
+  color: $text-color;
+
+  // Optional nested example
+  a {
+    color: blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  // Add base styles for headings
+  h1, h2, h3 {
+    font-weight: 600;
+    margin: 1em 0 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+  }
+}
